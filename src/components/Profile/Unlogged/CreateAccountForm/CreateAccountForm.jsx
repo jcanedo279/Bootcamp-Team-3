@@ -9,6 +9,7 @@ class CreateAccountForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      name: '',
       email: '',
       username: '',
       pass: '',
@@ -24,6 +25,7 @@ class CreateAccountForm extends React.Component {
 
   componentDidMount() {
     this.setState({
+      name: 'initName',
       email: 'initEmail',
       username: 'initUsername',
       pass: 'initPass',
@@ -45,8 +47,6 @@ class CreateAccountForm extends React.Component {
     this.createAccountPostReq(this.state);
 
     // console.log('apiResponse =', resp)
-
-    // // PROPS call here
   }
 
   createAccountGetReq(cS) {
