@@ -35,10 +35,6 @@ function Nav() {
             <li>Profile</li>
           </Link>
 
-          <Link className="navLinks" to="/rus">
-            <li>Rus</li>
-          </Link>
-
           <div className="navLinks">
             <input type="search" placeholder="Search..." />
           </div>

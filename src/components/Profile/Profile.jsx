@@ -7,9 +7,9 @@ import MyDonations from './Logged/MyDonations/MyDonations';
 import MyProfile from './Logged/MyProfile/MyProfile';
 import Forms from './Logged/Forms/Forms';
 import Payment from './Logged/Payment/Payment';
+import Dashboard from './Logged/Dashboard/Dashboard'
 
 import Unlogged from './Unlogged/Unlogged';
-import LoggedIn from './Logged/LoggedIn/LoggedIn';
 
 import CreateAccountVerified from './Logged/CreateAccountVerified/CreateAccountVerified';
 import LoginVerified from './Logged/LoginVerified/LoginVerified';
@@ -91,6 +91,10 @@ class Profile extends React.Component {
         />
 
         <ul className="navList">
+          <Link className="navLinks" to="/profile/dashboard">
+            <li>Dashboard</li>
+          </Link>
+
           <Link className="navLinks" to="/profile/myDonations">
             <li>My Donations</li>
           </Link>
@@ -109,11 +113,14 @@ class Profile extends React.Component {
         </ul>
 
         <Switch>
+          <Route exact path="/profile/dashboard" render={() => <Dashboard />}/>
+
           <Route
             exact
             path="/profile/createAccount"
             component={CreateAccountVerified}
           />
+
           <Route exact path="/profile/login" component={LoginVerified} />
 
           <Route
@@ -139,7 +146,6 @@ class Profile extends React.Component {
           <Route exact path="/profile/payment" render={() => <Payment />} />
         </Switch>
 
-        <Route exact path="/profile" component={LoggedIn} />
       </div>
     );
   }
