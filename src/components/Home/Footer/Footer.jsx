@@ -45,7 +45,7 @@ class Footer extends React.Component {
       <div className="Footer">
         <ul className="navList">
           <li>
-            <p>Powered by</p>
+            <p>Powered by <b>React</b></p>
           </li>
           <li>
             <div
@@ -69,13 +69,25 @@ class Footer extends React.Component {
           <li>
             <p>
               Check us out on
-              <i className="fa fa-facebook-official w3-hover-opacity" />
+              {/*<a href="#" className="w3-bar-item w3-button">
+                <i className="fa fa-facebook-official w3-hover-opacity" />
+              </a>*/}
+              <a href="#" className="w3-bar-item w3-button">
+                <i className="fa fa-instagram w3-hover-opacity" />
+              </a>
+              <a href="#" className="w3-bar-item w3-button">
+                <i className="fa fa-twitter w3-hover-opacity" />
+              </a>
+              <a href="#" className="w3-bar-item w3-button">
+                <i className="fa fa-linkedin w3-hover-opacity" />
+              </a> 
+              {/*<i className="fa fa-facebook-official w3-hover-opacity" />
               <i className="fa fa-instagram w3-hover-opacity" />
               <i className="fa fa-twitter w3-hover-opacity" />
-              <i className="fa fa-linkedin w3-hover-opacity" />
+              <i className="fa fa-linkedin w3-hover-opacity" />*/}
             </p>
           </li>
-          <p>Remember to check out our</p>
+          <p>Remember to check out our <a href="#" className="w3-hover-opacity">About Page</a></p>
         </ul>
       </div>
     );

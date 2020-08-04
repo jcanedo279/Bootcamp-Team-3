@@ -12,7 +12,7 @@ class Badges extends React.Component {
 
   render() {
     return (
-      <div className="w3-container">
+      <div className="w3-container"><hr />
         <h5 className="w3-xlarge">
           <b>Badges</b>
         </h5>
@@ -68,7 +68,7 @@ class Badges extends React.Component {
                 <div className="maxWidth w3-container w3-center">
                   <h3>Health and Wellness</h3>
                   <span className="w3-badge w3-xxxlarge w3-padding w3-dark-grey">
-                    <i className="fa fa-hospital-o w3-xxxlarge" />
+                    <i className="fa fa-heartbeat w3-xxxlarge" />
                   </span>
                   <h5>
                     <strong>Medical School</strong>:
@@ -90,14 +90,14 @@ class Badges extends React.Component {
                 <div className="maxWidth w3-container w3-center">
                   <h3>Fight Against Hunger</h3>
                   <span className="w3-badge w3-xxxlarge w3-padding w3-green">
-                    <i className="fa fa-cutlery w3-xxxlarge" />
+                    <i className="fa fa-coffee w3-xxxlarge" />
                   </span>
                   <h5>
                     <strong>Hamburger Helper</strong>:
                   </h5>
                   <p>
                     You've donated to <b>5</b> organizations who focus on food
-                    safety, health and accessibilty. With the amount of food
+                    safety, health, and accessibilty. With the amount of food
                     grown, no one deserves to go hungry.
                   </p>
                 </div>

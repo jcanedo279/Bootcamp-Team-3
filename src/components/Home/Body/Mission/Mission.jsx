@@ -12,16 +12,16 @@ class Mission extends React.Component {
 
   render() {
     return (
-      <div className="Mission">
+      <div className="Mission"><br /><hr />
         {/*What we do section; no commands needed(no clicks or buttons)*/}
         <div className="w3-center">
           <h2>What we do</h2>
           <p className="w3-large">Check out how FundFlow works</p>
         </div>
         <br />
-        <ul className="ul">
+        <ul className="ul w3-white">
           <li className="li">
-            <div className="w3-row w3-border">
+            <div className="w3-row  w3-border">
               <div className="w3-half w3-container w3-blue w3-border">
                 <h5>
                   <b>Non-profit Database</b>
@@ -77,10 +77,10 @@ class Mission extends React.Component {
               </div>
             </div>
           </li>
-        </ul>
+        </ul><br />
 
         {/*Mission section; no commands needed(no clicks or buttons)*/}
-        <div className="w3-center">
+        <div className="w3-center"><hr />
           <h2>Our Mission</h2>
           <p>
             FundFlow is misson is simple: making sure no good deed is undone

@@ -12,18 +12,18 @@ class Reach extends React.Component {
 
   render() {
     return (
-      <div className="Reach">
+      <div className="Reach"><br />
         <div className="w3-container w3-center">
           <h3>Our Reach</h3>
           <p>Read how FundFlow has helped these fighters!</p>
-        </div>
+        </div><br />
 
         <ul className="ul w3-row-padding">
-          <li className="w3-third">
+          <li className="w3-third w3-white">
             <div className="w3-card-4 w3-hover-dark-grey">
               {/*Hover over image; could make it clickable if you want to*/}
               <img
-                src="/w3images/avatar.jpg"
+                src="/images/43091.jpg"
                 alt="man1"
                 // style="width:100%"
               />
@@ -33,7 +33,7 @@ class Reach extends React.Component {
             </div>
           </li>
 
-          <li className="w3-third">
+          <li className="w3-third w3-white">
             <div className="w3-card-4 w3-hover-dark-grey">
               {/*Hover over image; could make it clickable if you want to*/}
               <img
@@ -47,7 +47,7 @@ class Reach extends React.Component {
             </div>
           </li>
 
-          <li className="w3-third">
+          <li className="w3-third w3-white">
             <div className="w3-card-4 w3-hover-dark-grey">
               {/*Hover over image; could make it clickable if you want to*/}
               <img

@@ -1,12 +1,12 @@
 import React from 'react';
 
+import Dashboard from '../Dashboard/Dashboard'
+
 import './LoggedIn.css';
 
 function LoggedIn() {
   return (
-    <div className="LoggedIn">
-      <p>You Are Logged In</p>
-    </div>
+    <Dashboard className="LoggedIn" />
   );
 }
 

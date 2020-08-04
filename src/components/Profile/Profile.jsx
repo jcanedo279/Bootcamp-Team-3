@@ -45,10 +45,10 @@ class Profile extends React.Component {
         <title> Unlogged Mode </title>
         <meta charSet="UTF-8" />
         <link rel="stylesheet" href="Profile.css" />
-        <link
+        {/* <link
           rel="stylesheet"
           href="https://www.w3schools.com/w3css/4/w3.css"
-        />
+        /> */}
         <link
           href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           rel="stylesheet"
@@ -109,8 +109,6 @@ class Profile extends React.Component {
         </ul>
 
         <Switch>
-          <Route exact path="/profile" component={LoggedIn} />
-
           <Route
             exact
             path="/profile/createAccount"
@@ -140,6 +138,8 @@ class Profile extends React.Component {
 
           <Route exact path="/profile/payment" render={() => <Payment />} />
         </Switch>
+
+        <Route exact path="/profile" component={LoggedIn} />
       </div>
     );
   }

@@ -12,7 +12,6 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import OrgSearch from './components/OrgSearch/OrgSearch';
 import Profile from './components/Profile/Profile';
-import Dashboard from './components/Dashboard/Dashboard';
 import Rus from './components/Rus/Rus';
 
 import NotFound from './components/NotFound/NotFound';
@@ -50,7 +49,6 @@ class App extends React.Component {
                 <Profile saveUp={this.saveUp} appState={this.state} />
               )}
             />
-            <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/rus" component={Rus} />
             {/* <Route exactPath="/hez" component={Hez} /> */}
             <Route path="/404" component={NotFound} />

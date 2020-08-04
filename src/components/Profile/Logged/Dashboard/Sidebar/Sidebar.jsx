@@ -45,9 +45,9 @@ class Sidebar extends React.Component {
         >
           <br />
           <div className="w3-container w3-row">
-            <div className="w3-col s4">
+          {/*<div className="w3-col s4">
               <img className="maxWidth" src="#" alt="User Profile Pic"></img>
-            </div>
+    </div>*/}
             <div className="w3-col s8 w3-bar w3-large">
               <span>
                 Welcome, <strong>User</strong>
@@ -55,13 +55,13 @@ class Sidebar extends React.Component {
               <br />
               {/* Add function to have clickable icons */}
               <a href="#" className="w3-bar-item w3-button">
-                <i className="fa fa-envelope" />
+                <i className="fa fa-envelope" /> Email
               </a>
               <a href="#" className="w3-bar-item w3-button">
-                <i className="fa fa-user" />
+                <i className="fa fa-user" /> Profile
               </a>
               <a href="#" className="w3-bar-item w3-button">
-                <i className="fa fa-cog" />
+                <i className="fa fa-cog" /> Profile Settings
               </a>
             </div>
           </div>
@@ -77,39 +77,39 @@ class Sidebar extends React.Component {
               onClick="w3_close()"
               title="close menu"
             >
-              <i class="fa fa-remove fa-fw"></i>  Close Menu
+              <i class="fa fa-remove fa-fw"></i>  Close Menu
             </a>{' '}
             <br />
             <a href="#" class="w3-bar-item w3-button w3-padding w3-blue">
-              <i class="fa fa-users fa-fw"></i>  Overview
+              <i class="fa fa-users fa-fw"></i>  Overview
             </a>{' '}
             <br />
             <a href="#" class="w3-bar-item w3-button w3-padding">
-              <i class="fa fa-dollar fa-fw"></i>  Donations
+              <i class="fa fa-money fa-fw"></i>  Donations
             </a>{' '}
             <br />
             <a href="#" class="w3-bar-item w3-button w3-padding">
-              <i class="fa fa-users fa-fw"></i>  My Organizations
+              <i class="fa fa-users fa-fw"></i>  My Organizations
             </a>{' '}
             <br />
             <a href="#" class="w3-bar-item w3-button w3-padding">
-              <i class="fa fa-certificate fa-fw"></i>  Badges
+              <i class="fa fa-certificate fa-fw"></i>  Badges
             </a>{' '}
             <br />
             <a href="#" class="w3-bar-item w3-button w3-padding">
-              <i class="fa fa-bullseye fa-fw"></i>  Find Organizations
+              <i class="fa fa-bullseye fa-fw"></i>  Find Organizations
             </a>{' '}
             <br />
             <a href="#" class="w3-bar-item w3-button w3-padding">
-              <i class="fa fa-bell fa-fw"></i>  News
+              <i class="fa fa-bell fa-fw"></i>  News
             </a>{' '}
             <br />
             <a href="#" class="w3-bar-item w3-button w3-padding">
-              <i class="fa fa-history fa-fw"></i>  Donation History
+              <i class="fa fa-history fa-fw"></i>  Donation History
             </a>{' '}
             <br />
             <a href="#" class="w3-bar-item w3-button w3-padding">
-              <i class="fa fa-cog fa-fw"></i>  Settings
+              <i class="fa fa-cog fa-fw"></i>  Settings
             </a>{' '}
             <br />
             <br />

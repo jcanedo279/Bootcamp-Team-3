@@ -25,11 +25,11 @@ class OrgAccordion extends React.Component {
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton className="w3-padding-16 w3-theme w3-button w3-block w3-left-align">
-                Links to our articles of the week
+                The Power of Donations!
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <div id="Demo1" className="w3-black">
+              <div id="Demo1" className="w3-white">
                 <div className="w3-container">
                   <p>
                     Donations are a powerful way to help non-profits that are
@@ -48,9 +48,15 @@ class OrgAccordion extends React.Component {
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <div id="Demo2" className="w3-black">
+              <div id="Demo2" className="w3-white">
                 <p>Demo2</p>
               </div>
+              <img
+                    alt="video-demo"
+                    src="#"
+                    // style="width:30%;"
+                    className="w3-animate-zoom"
+                  />
             </AccordionItemPanel>
           </AccordionItem>
 
@@ -61,22 +67,23 @@ class OrgAccordion extends React.Component {
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <div id="Demo3" className="w3-black">
+              <div id="Demo3" className="w3-white">
                 <div className="w3-container">
                   <p>
-                    This is ____ , a non-profit aiming to help troubled youth:
+                    How To Know An Organization Is Legit
                   </p>
-                  <img
-                    alt="animate-zoom not available"
-                    src="img_snowtops.jpg"
-                    // style="width:30%;"
-                    className="w3-animate-zoom"
-                  />
+                  <p>
+                    Donation Scam: Avoid These Shady Organizations
+                  </p>
+                  <p>
+                    How Donations Saved This Small Town
+                  </p>
                 </div>
               </div>
             </AccordionItemPanel>
           </AccordionItem>
         </Accordion>
+        <hr />
       </div>
     );
   }

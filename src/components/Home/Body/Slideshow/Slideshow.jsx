@@ -13,12 +13,12 @@ class Slideshow extends React.Component {
   render() {
     return (
       <div className="Slideshow">
+        <br />
         {/*Add function to click on side arrow buttons to scroll through slideshow*/}
         <h2 className="w3-center">Organizations of the week</h2>
         <p>
           {' '}
-          Below is a slideshow of FundFlows chosen organizations of the week!
-          Scroll through and click on an organization that speaks to you!
+          Check out these amazing pics provided by our organizations of the week!
         </p>
         <div
           className="w3-content"

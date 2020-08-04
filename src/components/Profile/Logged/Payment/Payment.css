@@ -135,3 +135,13 @@ a:hover {
   background-color: lightgreen; /* Green */
   color: white;
 }
+
+
+.form-control {
+  width:45%
+}
+
+.span {
+  width:10%;
+  text-align: center;
+}

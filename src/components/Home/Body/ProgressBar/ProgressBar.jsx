@@ -97,12 +97,12 @@ class ProgressBar extends React.Component {
         <h2 className="w3-center">Goal of the Week</h2>
         <p>
           {' '}
-          FundFlow has chosen the donation goal of the organization to showcase
+          FundFlow has chosen the donation goal of organization 1 to showcase
           on the homepage!
         </p>
         <p>
           {' '}
-          Below is a progress bar to show how close they are donation goal!
+          Below is a progress bar to show how close they are to the donation goal:
         </p>
         <canvas
           className="canvas"
